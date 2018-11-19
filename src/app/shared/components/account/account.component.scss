@@ -1,0 +1,60 @@
+.header{
+font-size: .8rem;
+border-bottom: 1px solid silver ;
+>div:first-child{
+    position: relative;
+    p {
+        position: absolute;
+        bottom: 0;
+        margin-bottom: 0;
+        i{
+            color: #2577C9;
+        }
+    }
+     
+}
+.header-text-secondary{
+    color: grey;
+}}
+
+.account-row{
+    font-family: Arial, Helvetica, sans-serif;
+    border-bottom: 1px solid lightgray;
+    align-items: center;
+    .account{
+        color: #2577C9;
+        font-weight: 600;
+    }
+}
+
+.show-all-row{
+    font-family: Arial, Helvetica, sans-serif;
+    border-bottom: 1px solid lightgray;
+    align-items: center;
+    color: #2577C9;
+    font-weight: 600;
+}
+
+.positive{
+    color: green;
+}
+
+.negative{
+    color: red;
+}
+
+.bg-grey{
+    background-color: #F2F3F5;
+}
+
+.bottom-align-text { 
+ vertical-align: bottom; 
+}
+
+.cursor-pointer{
+    cursor : pointer;
+}
+
+.text-small{
+    font-size: .8rem;
+}

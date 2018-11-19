@@ -1,0 +1,27 @@
+<div class="row header text-left">
+  <div class="col-6 bg-grey bottom-align-text cursor-pointer" (click)="sort('accountNumber')">
+    <p class="positon-abs"><span>Account</span><i [ngClass]="getIcon('accountNumber')"></i></p>
+
+  </div>
+  <div class="col-6 text-right cursor-pointer">
+    Available Cash
+    <i [ngClass]="getIcon('availableCash')"></i>
+    <div class="header-text-secondary" (click)="sort('availableCash')">Today's Change</div>
+  </div>
+
+</div>
+<div class="row account-row py-2" *ngFor='let accountDetail of accounts | slice:0:show'>
+  <div class="col-4 account">
+    {{accountDetail.account}}
+  </div>
+  <div class="col-8 text-right">
+    {{accountDetail.availableCash | currency}}<br>
+    <div class="text-small" [ngClass]="{'positive' : accountDetail.percentageChange > 0, 'negative' : accountDetail.percentageChange < 0}">{{accountDetail.percentageChange
+      | percent:'.2' }}
+      / {{accountDetail.cashChange | currency }}
+    </div>
+  </div>
+</div>
+<div *ngIf="showMoreStyle" class="text-center show-all-row py-2">
+  <p class="cursor-pointer m-1" (click)="showAllAccounts()">Load More</p>
+</div>

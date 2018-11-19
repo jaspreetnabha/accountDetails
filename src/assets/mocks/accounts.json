@@ -1,0 +1,38 @@
+[
+    {
+        "accountNumber": "5200",
+        "accountType": "IRA",
+        "availableCash": 5763.36,
+        "yesterdayCash": 5769.36
+    },
+    {
+        "accountNumber": "1812",
+        "accountType": "AAA",
+        "availableCash": 400926.10,
+        "yesterdayCash": 401122.63
+    },
+    {
+        "accountNumber": "3810",
+        "accountType": "AAA",
+        "availableCash": 850054.07,
+        "yesterdayCash": 861232.69
+    },
+    {
+        "accountNumber": "2919",
+        "accountType": "REG",
+        "availableCash": 135679.34,
+        "yesterdayCash": 135679.34
+    },
+    {
+        "accountNumber": "0146",
+        "accountType": "IRA",
+        "availableCash": 154302.39,
+        "yesterdayCash": 151233.83
+    },
+    {
+        "accountNumber": "0029",
+        "accountType": "AAA",
+        "availableCash": 1390654.42,
+        "yesterdayCash": 1405343.87
+    }
+]
